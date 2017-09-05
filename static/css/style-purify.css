@@ -142,6 +142,13 @@ h3,h4,h5 {
   top: 12px;
 }
 
+body:not(.fixed-sidebar):not(.canvas-menu).mini-navbar .nav li:hover>.nav-second-level {
+  display: block;
+  border-radius: 0 2px 2px 0;
+  min-width: 140px;
+  height: auto;
+}
+
 .navbar-default .landing_link a {
   background: #3385FF;
   color: #fff;
@@ -189,6 +196,10 @@ body.fixed-nav.fixed-nav-basic.body-small .navbar-fixed-top {
 
 .body-small .navbar-fixed-top {
   margin-left: 0;
+}
+
+body:not(.fixed-sidebar):not(.canvas-menu).mini-navbar .nav-second-level {
+  display: none;
 }
 
 body.canvas-menu .nav-header {
