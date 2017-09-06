@@ -1,8 +1,8 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Jiaxuan Li' Blog
-description: Jiaxuan's blog.
+title: Jiaxuan Li' Homepage
+description: Jiaxuan's Homepage: About Astronomy, Physics, Mathematics and Life!.
 keywords: Jiaxuan, Astronomy, Physics, Mathematics, Galaxy, Cosmology, Music
 baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://astrojacobli.github.io/Jalpc  # url should be 'http://<github_username>.github.io/homepage' as before
@@ -12,8 +12,8 @@ img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/asset
 # author -- index page "about me" section
 author:  # change following line to your infomation.
   name: 李嘉轩  # Be used at blog posts' author.
-  first_name: Jiaxuan  # Be used at index page about me section.
-  last_name: Li  # Be used at index page about me section.
+  first_name: Jiaxuan Li  # Be used at index page about me section.
+  last_name:  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: astrojacobli # Leave blank if you don't have now
   linkedin_id:  # Leave blank if you don't have now
@@ -32,7 +32,7 @@ author:  # change following line to your infomation.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: jalpc
+  name: jiaxuanli
 
 # analytics
 ## google analytics
