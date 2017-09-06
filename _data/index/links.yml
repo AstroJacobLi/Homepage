@@ -1,14 +1,14 @@
 # links section data
-- last_name: Name 1
-  first_name:
-  desc: CEO
-  website: https://www.google.com
-  email: ceo@google.com
+- last_name: Li
+  first_name: Jiaxuan
+  desc: Student
+  website: https://www.jiaxuanli.top
+  email: jiaxuan_li@pku.edu.cn
 
 - last_name: Donate
-  first_name: Jalpc
-  desc: Support Jalpc
-  website: http://www.jarrekk.com/donate/
+  first_name: Jiaxuan Li
+  desc: Support Jiaxuan Li
+  website: http://www.jiaxuanli.top/donate/
   email: me@jarrekk.com
 
 - last_name: LN
