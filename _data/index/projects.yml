@@ -19,5 +19,6 @@
   
 - name: Youth Astronomy Society
   i18n: yas
+  url: http://weibo.com/pkuyas
   img: /static/assets/img/landing/yas.jpg
   desc: 北京大学青年天文学会
