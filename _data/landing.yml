@@ -24,9 +24,3 @@
   name: Links
   tpl: links.html
   css: contact
-
-- id: donate
-  i18n: nav.donate
-  name: Donate
-  tpl: donate.html
-  css: 
