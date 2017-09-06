@@ -1,18 +1,17 @@
 # links section data
-- last_name: Li
-  first_name: Jiaxuan
-  desc: Student
-  website: http://jiaxuanli.top
+- last_name: Li Jiaxuan
+  first_name: 
+  desc: Undergraduate Student
+  website: https://astrojacobli.github.io/Jalpc/
   email: jiaxuan_li@pku.edu.cn
 
 - last_name: Donate
-  first_name: Jiaxuan Li
-  desc: Support Jiaxuan Li
-  website: http://www.jiaxuanli.top/donate/
-  email: jiaxuan_li@pku.edu.cn
+  first_name: 
+  desc: Support Jiaxuan Li to build a better homepage
+  website: https://astrojacobli.github.io/Jalpc/donate/
 
-- last_name: Ma
-  first_name: Tsingchuan
-  desc: Student
+- last_name: Ma Tsingchuan
+  first_name: 
+  desc: Undergraduate Student, Roommate
   website: http://www.baidu.com
   email: 1600011621@pku.edu.cn
