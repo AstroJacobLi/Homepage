@@ -2,7 +2,7 @@
 
 # Website settings
 title: Jiaxuan Li' Homepage
-description: Jiaxuan's blog.
+description: Jiaxuan's Homepage
 keywords: Jiaxuan, Astronomy, Physics, Mathematics, Galaxy, Cosmology, Music
 baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://astrojacobli.github.io/Jalpc  # url should be 'http://<github_username>.github.io/homepage' as before
