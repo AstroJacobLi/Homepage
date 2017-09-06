@@ -29,4 +29,4 @@
   i18n: nav.donate
   name: Donate
   tpl: donate.html
-  css: contact
+  css: 
