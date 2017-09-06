@@ -5,14 +5,14 @@
   website: http://jiaxuanli.top
   email: jiaxuan_li@pku.edu.cn
 
-- last_name: Ma
-  first_name: Tsingchuan
-  desc: Student
-  website: http://www.baidu.com
-  email: 1600011621@pku.edu.cn
-
 - last_name: Jiaxuan Li
   first_name: Donate
   desc: Support Jiaxuan Li
   website: http://www.jiaxuanli.top/donate/
   email: jiaxuan_li@pku.edu.cn
+
+- last_name: Ma
+  first_name: Tsingchuan
+  desc: Student
+  website: http://www.baidu.com
+  email: 1600011621@pku.edu.cn
