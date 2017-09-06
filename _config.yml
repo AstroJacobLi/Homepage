@@ -28,12 +28,11 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: I am a 2016 Undergraduate Student of Department of Astronomy, School of Physics, Peking University. I am the 
-  current President of Youth Astronomy Society, Peking University.
+  desc: I am a 2016 Undergraduate Student of Department of Astronomy, School of Physics, Peking University. I am the current President of Youth Astronomy Society, Peking University.
 
 # comment
-disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: jiaxuanli
+#disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+#  name: jiaxuanli
 
 # analytics
 ## google analytics
