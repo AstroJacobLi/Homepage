@@ -2,12 +2,12 @@
 - last_name: Li
   first_name: Jiaxuan
   desc: Student
-  website: https://jiaxuanli.top
+  website: http://jiaxuanli.top
   email: jiaxuan_li@pku.edu.cn
 
 - last_name: Ma
   first_name: Tsingchuan
   desc: Support Jiaxuan Li
-  website: https://www.jiaxuanli.top/donate/
+  website: http://www.jiaxuanli.top/donate/
   email: 1600011621@pku.edu.cn
 
