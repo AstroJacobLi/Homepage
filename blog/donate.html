@@ -10,7 +10,9 @@ permalink: /donate/
         <div class="navy-line"></div>
         <h1>Donate Jiaxuan Li</h1>
         <br/>
-        <h3>If you like my homepage and want to support it, please donate. Your donation can make my homepage better!</h3>
+        <h3>If you like my homepage and want to support it, please donate!
+            <br/>
+            Your donation can make my homepage better!</h3>
     </div>
 </div>
 
@@ -23,7 +25,9 @@ permalink: /donate/
                 {% for alipay in site.data.donation.alipay %}
                 <div>
                     <div class="ibox-content">
-                        <img src="{{ alipay.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="50%">
+                        <center>
+                        <img src="{{ alipay.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="100%">
+                         </center>
                     </div>
                 </div>
                 {% endfor %}
@@ -37,7 +41,9 @@ permalink: /donate/
                 {% for wechat in site.data.donation.wechat_pay %}
                 <div>
                     <div class="ibox-content">
-                        <img src="{{ wechat.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="50%">
+                        <center>
+                        <img src="{{ wechat.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="100%">
+                         </center>
                     </div>
                 </div>
                 {% endfor %}
