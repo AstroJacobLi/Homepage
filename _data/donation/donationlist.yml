@@ -6,12 +6,14 @@
   type: rmb
   github: Qingchuan-Ma
   website: http://jiaxuanli.top
+  location: Beijing
   value: 1
   date: 2017-09-07
   
 - name: Shun Wang
   photo: shun.jpg
   account: 1600011605@pku.edu.cn
+  location: Beijing
   type: rmb
   value: 1
   date: 2017-09-09
@@ -20,6 +22,7 @@
   number: 3
   account: zhaoxinmiao@pku.edu.cn
   type: rmb
+  location: Beijing
   website: 
   value: 1
   date: 2017-09-09

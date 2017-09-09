@@ -58,14 +58,16 @@ permalink: /donate/
             <div class="contact-box" style="height: 200px;">
                 <div class="col-sm-4">
                     <div class="text-center">
-                        <img src="{{donation.number.jpg | prepend: '/static/assets/img/donate/' | prepend: site.baseurl }}" width=50%>
+                        <img alt="image" class="img-circle m-t-xs img-responsive {{ donation.github }}" src="{{donation.photo | prepend: '/static/assets/img/donate/' | prepend: site.baseurl }}">
                         <div class="m-t-xs font-bold">{{ donation.name }}</div>
                         <p><i class="fa fa-{{ donation.type }}"></i> {{ donation.value }}</p>
                     </div>
                 </div>
                 <div class="col-sm-8">
                     <p><i class="fa fa-user"></i> {{ donation.account }}</p>
-                    <p class="{{ donation.github }}"><i class="fa fa-map-marker"></i> Earth</p>
+                    {% if donation.location %}
+                    <p class="{{ donation.github }}"><i class="fa fa-map-marker"></i> {{donation.location}}</p>
+                    {% endif %}
                     {% if donation.website %}
                     <p><i class="fa fa-globe"></i> <a target="blank" href="{{ donation.website }}">Website</a></p>
                     {% endif %}
