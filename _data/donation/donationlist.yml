@@ -1,6 +1,7 @@
 # donation list
 
 - name: Tsingchuan Ma
+  number: 1
   account: 1600011621@pku.edu.cn
   type: rmb
   github: Qingchuan-Ma
@@ -9,22 +10,17 @@
   date: 2017-09-07
   
 - name: Shun Wang
+  number: 2
   account: 1600011605@pku.edu.cn
   type: rmb
   value: 1
   date: 2017-09-09
   
 - name: Xinmiao Zhao
+  number: 3
   account: zhaoxinmiao@pku.edu.cn
   type: rmb
   website: 
-  value: 0.01
-  date: 2017-09-09
-  
-- name: Xinmiao Zhao
-  account: zhaoxinmiao@pku.edu.cn
-  type: rmb
-  website: 
-  value: 0.99
+  value: 1
   date: 2017-09-09
 
