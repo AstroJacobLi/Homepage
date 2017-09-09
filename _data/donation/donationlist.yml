@@ -7,11 +7,13 @@
   website: http://jiaxuanli.top
   value: 1
   date: 2017-09-07
+  
 - name: Shun Wang
   account: 1600011605@pku.edu.cn
   type: rmb
   value: 1
   date: 2017-09-09
+  
 - name: Xinmiao Zhao
   account: zhaoxinmiao@pku.edu.cn
   type: rmb
@@ -23,6 +25,6 @@
   account: zhaoxinmiao@pku.edu.cn
   type: rmb
   website: 
-  value: 0.09
+  value: 0.99
   date: 2017-09-09
 
