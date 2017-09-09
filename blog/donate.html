@@ -65,7 +65,9 @@ permalink: /donate/
                 </div>
                 <div class="col-sm-8">
                     <p><i class="fa fa-user"></i> {{ donation.account }}</p>
-                    <p class="{{ donation.github }}"><i class="fa fa-map-marker"></i> Earth</p>
+                    {% if donation.location %}
+                    <p class="{{ donation.github }}"><i class="fa fa-map-marker"></i> {{donation.location}}</p>
+                    {% endif %}
                     {% if donation.website %}
                     <p><i class="fa fa-globe"></i> <a target="blank" href="{{ donation.website }}">Website</a></p>
                     {% endif %}
