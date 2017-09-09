@@ -19,12 +19,19 @@
   date: 2017-09-09
   
 - name: Xinmiao Zhao
-  number: 3
   photo: xinmiao.jpg
   account: zhaoxinmiao@pku.edu.cn
   type: rmb
   location: Beijing
   website: 
   value: 1
+  date: 2017-09-09
+  
+- name: Xiaotong Li
+  photo: xiaotong.jpg
+  type: rmb
+  location: Beijing
+  website: 
+  value: 0.01
   date: 2017-09-09
 

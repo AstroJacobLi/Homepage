@@ -64,7 +64,9 @@ permalink: /donate/
                     </div>
                 </div>
                 <div class="col-sm-8">
+                    {% if donation.account %}
                     <p><i class="fa fa-user"></i> {{ donation.account }}</p>
+                    {% endif %}
                     {% if donation.location %}
                     <p class="{{ donation.github }}"><i class="fa fa-map-marker"></i> {{donation.location}}</p>
                     {% endif %}
