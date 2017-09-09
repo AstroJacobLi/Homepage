@@ -55,10 +55,10 @@ permalink: /donate/
         {% for donation in site.data.donation.donationlist %}
         {% assign loopindex = forloop.index | modulo: 2 %}
         <div class="col-sm-4 {% if loopindex == 1 %}col-sm-offset-2{% endif %}">
-            <div class="contact-box" style="height: 100px;">
+            <div class="contact-box" style="height: 200px;">
                 <div class="col-sm-4">
                     <div class="text-center">
-                        <img alt="image" class="img-circle m-t-xs img-responsive {{ donation.github }}" src="{{donation.number | prepend: '/static/assets/img/donate.jpg' | prepend: site.baseurl }}">
+                        <img alt="image" class="img-circle m-t-xs img-responsive {{ donation.github }}" src="{{donation.number | prepend: '/static/assets/img/donate/' | prepend: site.baseurl }}">
                         <div class="m-t-xs font-bold">{{ donation.name }}</div>
                         <p><i class="fa fa-{{ donation.type }}"></i> {{ donation.value }}</p>
                     </div>
