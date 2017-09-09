@@ -9,6 +9,12 @@ url: jiaxuanli.top # url should be 'http://<github_username>.github.io/homepage'
 # url: http://127.0.0.1:4000
 img_path: /Homepage/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
+deploy:
+  type: github
+  repository: https://gitcafe.com/<your_username>/<your_username>.git
+  branch: gitcafe-pages
+
+
 # author -- index page "about me" section
 author:  # change following line to your infomation.
   name: 李嘉轩  # Be used at blog posts' author.
