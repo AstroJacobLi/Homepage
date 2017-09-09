@@ -7498,6 +7498,10 @@ body.landing-page {
     background: url(../img/landing/header_three.jpg) 50% 0 no-repeat
 }
 
+.landing-page .header-back.four {
+    background: url(../img/landing/header_four.jpg) 50% 0 no-repeat
+}
+
 .landing-page .carousel {
     height: 470px
 }
