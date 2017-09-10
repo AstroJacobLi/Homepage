@@ -19,6 +19,8 @@ The Press–Schechter formalism predicts that the number of objects with mass be
 where <script type="math/tex">{\bar {\rho }}</script> is the mean (baryonic and dark) matter density of the universe, <script type="math/tex">n</script> is the index of the power spectrum of the fluctuations in the early universe <script type="math/tex">P(k)\propto k^{n}</script>, and<script type="math/tex">M^*</script>is a critical mass above which structures will form.
 <br/>
 
+<br/>
+
 # <script type="math/tex">D_{4000}</script> Break
 
 [Literature](http://adsabs.harvard.edu/full/1997A\%26A...325.1025P) and [Galaxy Zoo](http://www.galaxyzooforum.org/index.php?topic=1923.0) talked about <script type="math/tex">D_{4000} </script> break. Briefly speaking, <script type="math/tex">D_{4000}</script> break is the ratio between the average flux density in <script type="math/tex">[4050A,4250A]</script> and in <script type="math/tex">[3750A,3950A]</script>. We can see from Fig.1, the ratio of average flux density in this two area can be calculated easily.
@@ -27,7 +29,7 @@ where <script type="math/tex">{\bar {\rho }}</script> is the mean (baryonic and 
 
 <center>Fig.1 <script type="math/tex">D_{4000}</script> break for galaxy</center>
 
-
+<br/>
 
 And <script type="math/tex">D_4000</script> break can be a proxy for stellar age of one galaxy, as Fig.2 shows.
 
