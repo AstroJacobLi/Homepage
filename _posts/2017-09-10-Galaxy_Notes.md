@@ -14,7 +14,7 @@ icon: icon-smile
 # Schechter Mass Function
 The Press–Schechter formalism predicts that the number of objects with mass between <script type="math/tex">M</script> and <script type="math/tex">M+dM</script> is:
 
-<script type="math/tex; mode=display"> N(M)dM=\frac{1}{\sqrt{\pi}}(1+\frac{n}{3})\frac{\bar\rho}{M^2}\left(\frac{M}{M^*}\right)^{(3+n)/6} exp dM</script>
+<script type="math/tex; mode=display"> N(M)dM=\frac{1}{\sqrt{\pi}}(1+\frac{n}{3})\frac{\bar\rho}{M^2}\left(\frac{M}{M^*}\right)^{(3+n)/6} \exp dM</script>
 
 where <script type="math/tex">{\bar {\rho }}</script> is the mean (baryonic and dark) matter density of the universe, <script type="math/tex">n</script> is the index of the power spectrum of the fluctuations in the early universe <script type="math/tex">P(k)\propto k^{n}</script>, and<script type="math/tex">M^*</script>is a critical mass above which structures will form.
 <br/>
