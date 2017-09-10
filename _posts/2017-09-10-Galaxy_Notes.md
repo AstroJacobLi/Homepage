@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Galaxy Notes"
-date:   2017-08-28
+date:   2017-09-10
 desc: "Galaxy Notes"
 keywords: "Galaxy, Notes"
 categories: [Galaxy]
