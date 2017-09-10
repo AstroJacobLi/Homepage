@@ -35,3 +35,19 @@
   value: 0.01
   date: 2017-09-09
 
+- name: Zhaohan Ding
+  photo: zhaohan.jpg
+  type: rmb
+  location: Beijing
+  website: 
+  value: 1.00
+  date: 2017-09-09
+
+- name: Xin Zhang
+  photo: xin.jpg
+  type: rmb
+  location: Nanjing
+  website: 
+  value: 1.11
+  date: 2017-09-10
+
