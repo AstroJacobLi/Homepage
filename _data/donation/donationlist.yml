@@ -9,6 +9,14 @@
   location: Beijing
   value: 1
   date: 2017-09-07
+
+- name: Yurong Chen
+  photo: yurong.JPG
+  type: rmb
+  location: Beijing
+  website: 
+  value: 2.33
+  date: 2017-09-08
   
 - name: Shun Wang
   photo: shun.jpg
