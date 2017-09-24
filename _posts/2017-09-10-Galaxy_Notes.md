@@ -23,7 +23,7 @@ where <script type="math/tex">{\bar {\rho }}</script> is the mean (baryonic and 
 
 # <script type="math/tex">D_{4000}</script> Break
 
-[Literature](http://adsabs.harvard.edu/full/1997A\%26A...325.1025P) and [Galaxy Zoo](http://www.galaxyzooforum.org/index.php?topic=1923.0) talked about <script type="math/tex">D_{4000} </script> break. Briefly speaking, <script type="math/tex">D_{4000}</script> break is the ratio between the average flux density in <script type="math/tex">[4050A,4250A]</script> and in <script type="math/tex">[3750A,3950A]</script>. We can see from Fig.1, the ratio of average flux density in this two area can be calculated easily.
+[Literature](http://adsabs.harvard.edu/full/1997A%26A...325.1025P) and [Galaxy Zoo](http://www.galaxyzooforum.org/index.php?topic=1923.0) talked about <script type="math/tex">D_{4000} </script> break. Briefly speaking, <script type="math/tex">D_{4000}</script> break is the ratio between the average flux density in <script type="math/tex">[4050A,4250A]</script> and in <script type="math/tex">[3750A,3950A]</script>. We can see from Fig.1, the ratio of average flux density in this two area can be calculated easily.
 
 <center><img src="{{ site.img_path }}/Galaxy_Notes/hkbreak.jpg" width="70%"></center>
 
