@@ -11,6 +11,20 @@ icon: icon-smile
 
 # MaNGA Project
 
+## Python For MaNGA
+
+### FITS文件里有什么？
+
+cube=fits.open('XXXXX')
+
+cube['FLUX'] （还有WAVE, IVAR, MASK
+
+
+
+cd 到指定位置。
+
+ rsync -avz rsync://data.sdss.org/dr14/manga/spectro/pipe3d/v2_1_2/2.1.2/images ./
+
 ## Overview
 
 MaNGA uses integral field unit (IFU) spectroscopy to measure spectra for hundreds of points within each galaxy.
@@ -29,6 +43,8 @@ selection cuts applied only to **redshift, *i*-band luminosity,** and for a subs
 **Data Reduction Pipeline (DRP)**
 
 objra, objdec, ifuglon, ifuglat, ifura, ifudec, airmsmed, seemed, g/r/i/zfwhm, zmin, zmax, szmin, szmax, ezmin, ezmax
+
+nsa_z：红移
 
 nsa_elpetro_absmag(Absolute magnitude in rest-frame SDSS ?-band, from elliptical Petrosian fluxes (NSA)), 
 
@@ -107,7 +123,40 @@ targets = drpall[np.where(drpall['mngtarg3'] & 1<<13)]
 plates = np.unique(targets['plate'])
 ```
 
+####  Plot an Hα narrow band image from the datacube
+
+Apply [bitmasks](http://www.sdss.org/dr14/algorithms/bitmasks) and select region around Hαα:
+
+```python
+do_not_use = (mask & 2**10) != 0
+flux_m = np.ma.array(flux, mask=do_not_use)
+
+redshift = 0.0402719
+ind_wave = np.where((wave / (1 + redshift) > 6550) & (wave / (1 + redshift) < 6680))[0]
+halpha = flux_m[:, :, ind_wave].sum(axis=2)
+im = halpha.T
+
+# Convert from array indices to arcsec relative to IFU center
+dx = flux_header['CD1_1'] * 3600.  # deg to arcsec
+dy = flux_header['CD2_2'] * 3600.  # deg to arcsec
+x_extent = (np.array([0., im.shape[0]]) - (im.shape[0] - x_center)) * dx * (-1)
+y_extent = (np.array([0., im.shape[1]]) - (im.shape[1] - y_center)) * dy
+extent = [x_extent[0], x_extent[1], y_extent[0], y_extent[1]]
+```
+
+Note: [How to find the redshift of a galaxy from the drpall file](http://www.sdss.org/dr14/manga/manga-tutorials/catalogs/#find-redshift)
+
+Generate plot:
+
+```python
+plt.imshow(im, extent=extent, cmap=cm.YlGnBu_r, vmin=0.1, vmax=100, origin='lower', interpolation='none')
+plt.colorbar(label=flux_header['BUNIT'])
+plt.xlabel('arcsec')
+plt.ylabel('arcsec')
+```
+
 # Schechter Mass Function
+
 The Press–Schechter formalism predicts that the number of objects with mass between <script type="math/tex">M</script> and <script type="math/tex">M+dM</script> is:
 
 <script type="math/tex; mode=display"> N(M)dM=\frac{1}{\sqrt{\pi}}(1+\frac{n}{3})\frac{\bar\rho}{M^2}\left(\frac{M}{M^*}\right)^{(3+n)/6} \exp\left(-\left(\frac{M}{M^*}\right)^{(3+n)/3}\right) dM</script>
