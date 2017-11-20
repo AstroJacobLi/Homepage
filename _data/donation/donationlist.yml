@@ -66,3 +66,20 @@
   website: 
   value: 1.00
   date: 2017-09-12
+  
+- name: Zhuoqian Yang
+  photo: qianqian.jpg
+  type: rmb
+  location: Beijing
+  website: 
+  weibo: https://weibo.com/u/5684597062?topnav=1&wvr=6&topsug=1
+  value: 6.66
+  date: 2017-11-20
+  
+ - name: Deying Song
+  photo: songdeying.jpg
+  type: rmb
+  location: Beijing
+  website: 
+  value: 1.11
+  date: 2017-11-20
