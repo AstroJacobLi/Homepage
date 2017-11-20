@@ -7487,7 +7487,8 @@ body.landing-page {
 }
 
 .landing-page .header-back.one {
-    background: url(../img/landing/header_one.jpg) 11.7% 0 no-repeat
+    background: url(../img/landing/header_one.jpg) 50% 0 no-repeat
+    background-size:1260px 470px;
 }
 
 .landing-page .header-back.two {
