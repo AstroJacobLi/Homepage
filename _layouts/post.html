@@ -32,7 +32,7 @@ layout: default
                                 {% if site.disqus %}
                                 <i class="fa fa-comments-o"> </i> 
                                     {% if <span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ page.url }}"></span> %}
-                                    <span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ page.url }}"></span>
+                                    <a href="{{ site.url }}{{ post.url }}#disqus_thread"></a>
                                     {% endif %}
                                 {% endif %}
                                 </div>
