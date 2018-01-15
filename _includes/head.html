@@ -9,6 +9,15 @@ MathJax.Hub.Config({
 </script>
   <script type="text/x-mathjax-config">
   MathJax.Hub.Config({ TeX: { extensions: ["AMSmath.js", "AMSsymbols.js"] }});
+  MathJax.Hub.Config({
+  TeX: {
+    Macros: {
+      md: "{\\text{d}}",
+      bold: ["{\\bf #1}",1],
+      Abs: ['\\left\\lvert #2 \\right\\rvert_{\\text{#1}}', 2, ""]
+    }
+  }
+});
 </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
   <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
