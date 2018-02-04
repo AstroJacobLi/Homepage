@@ -18,7 +18,7 @@ author:  # change following line to your infomation.
   name: 李嘉轩  # Be used at blog posts' author.
   first_name: Jiaxuan Li  # Be used at index page about me section.
   last_name:  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.png  # upload your avatar at directory and edit it.
+  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: astrojacobli # Leave blank if you don't have now
   linkedin_id:  # Leave blank if you don't have now
   facebook_username: astrolijiaxuan  # Leave blank if you don't have now
