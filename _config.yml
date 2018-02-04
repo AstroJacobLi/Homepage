@@ -1,5 +1,3 @@
-# Welcome to Jekyll!
-
 # Website settings
 title: Jiaxuan Li's Homepage
 description: Jiaxuan's Homepage
@@ -20,7 +18,7 @@ author:  # change following line to your infomation.
   name: 李嘉轩  # Be used at blog posts' author.
   first_name: Jiaxuan Li  # Be used at index page about me section.
   last_name:  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+  avatar: /static/assets/img/landing/avatar.png  # upload your avatar at directory and edit it.
   github_username: astrojacobli # Leave blank if you don't have now
   linkedin_id:  # Leave blank if you don't have now
   facebook_username: astrolijiaxuan  # Leave blank if you don't have now
@@ -29,11 +27,11 @@ author:  # change following line to your infomation.
   cv:  /Homepage/CV.pdf # A online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: icon-apache
-    - name: fa-linux
+    - name: fa-music
+    - name: fa-camera-retro
   skill_icon2:
-    - name: fa-linux
-    - name: icon-apache
+    - name: icon-reactjs
+    - name: fa-python
   desc: Undergraduate Student of Department of Astronomy, School of Physics, Peking University <br/> <br/>President of Youth Astronomy Society, Peking University
 
 # comment
