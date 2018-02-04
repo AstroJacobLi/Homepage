@@ -1,4 +1,4 @@
-# Website settings
+﻿# Website settings
 title: Jiaxuan Li's Homepage
 description: Jiaxuan's Homepage
 keywords: Jiaxuan, Astronomy, Physics, Mathematics, Galaxy, Cosmology, Music
@@ -12,6 +12,11 @@ deploy:
   repository: https://gitcafe.com/<your_username>/<your_username>.git
   branch: gitcafe-pages
 
+languages:
+  - locale: 'en'
+    flag: 'static/img/flags/United-States.png'
+  - locale: 'zh'
+    flag: 'static/img/flags/China.png'
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
@@ -30,7 +35,7 @@ author:  # change following line to your infomation.
     - name: fa-music
     - name: fa-camera-retro
   skill_icon2:
-    - name: icon-reactjs
+    - name: icon-python
     - name: fa-python
   desc: Undergraduate Student of Department of Astronomy, School of Physics, Peking University <br/> <br/>President of Youth Astronomy Society, Peking University
 
