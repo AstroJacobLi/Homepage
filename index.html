@@ -3,15 +3,6 @@ layout: blog
 title: index
 permalink: /
 ---
-$.i18n.init(
-    resGetPath: 'locales/__lng__.json',
-    load: 'unspecific',
-    fallbackLng: false,
-    lng: 'en'
-}, function (t)
-    $('#i18_title').i18n();
-});
-
 <div class="navbar-wrapper">
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -23,6 +14,14 @@ $.i18n.init(
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
+          $.i18n.init(
+    resGetPath: 'locales/en.json',
+    load: 'unspecific',
+    fallbackLng: false,
+    lng: 'en'
+}, function (t)
+    $('#i18_title').i18n();
+});
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right" id="i18_navbar">
