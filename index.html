@@ -3,6 +3,14 @@ layout: blog
 title: index
 permalink: /
 ---
+$.i18n.init(
+    resGetPath: 'locales/__lng__.json',
+    load: 'unspecific',
+    fallbackLng: false,
+    lng: 'en'
+}, function (t)
+    $('#i18_title').i18n();
+});
 
 <div class="navbar-wrapper">
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
