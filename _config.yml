@@ -35,8 +35,8 @@ author:  # change following line to your infomation.
     - name: fa-music
     - name: fa-camera-retro
   skill_icon2:
-    - name: fa-python
-    - name: fa-music
+    - name: fa-earlybirds
+    - name: fa-superscript
   desc: Undergraduate Student of Department of Astronomy, School of Physics, Peking University <br/> <br/>President of Youth Astronomy Society, Peking University
 
 # comment
