@@ -33,10 +33,10 @@ author:  # change following line to your infomation.
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: fa-music
-    - name: fa-camera-retro
+    ##- name: fa-camera-retro
   skill_icon2:
     - name: fa-code
-    - name: fa-react
+    ##- name: fa-superscript
   desc: Undergraduate Student of Department of Astronomy, School of Physics, Peking University <br/> <br/>President of Youth Astronomy Society, Peking University
 
 # comment
