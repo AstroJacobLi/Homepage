@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Galaxy Notes"
-date:   2017-10-19
+date:   2018-03-12
 desc: "Galaxy Notes"
 keywords: "Galaxy, Notes"
 categories: [Galaxy]
@@ -10,6 +10,17 @@ icon: icon-smile
 ---
 
 # MaNGA Project
+
+前2天有点事没能及时回复，不好意思。上面的讨论很好，总结起来，
+（1）这些ring galaxies 在SFR-mass图上到底主要是分布在GV（pipe3d的SFR）还是passive sequence(MPA的SFR)其实并不重要。Ring galaxies只是inside out过程中的一个phase，重要的是搞清楚导致ring形成（或者inside out quench）的物理机制，到底是由于AGN还是bar的作用
+
+（2）当然，如果能限制一下这些ring galaxies在SFR-mass图上的位置还是很好的，特别是SFR（pipe3d）-SFR（mpa）的图上可以看出，ring galaxies的分布和其他galaxies比，是由systematic difference的。建议嘉轩用不同的SFR indicator看看，比如UV-based SFR和WISE的。嘉轩可以问问程鹏和可欣哪里去找这些SFRs
+
+（3）嘉轩最后发的那个折线图，x轴换成sSFR，估计那些不同stellar mass的线就基本叠加在一起了。然后画这种折线图用moving average画（不会的画可以问问程鹏）。
+
+（4）第一步，我们是要搞清楚ring galaxies里的AGN和bar的情况。其实，ring galaxies只是galaxies，主要是massive galaxies由inside out quench的过程中的有显著特征（出现ring）的一个phase，下一步是要搞清楚处于不同phase（above MS,on MS, GV, passive）的galaxies中AGN和bar的情况。其实就是详细比较程鹏那个AGN fraction-sSFR和bar fraction-sSFR的2条线的相互关系。
+
+（5）嘉轩提到的ring galaxies样本里有7个ellipticals，这个你可以把ID告诉可欣，可欣在MaNGA的数据里快速看看这几个galaxy有啥显著特点。如果有的话，就可以单独写篇letter来分析下。程程和程鹏的结果发现，star forming ellipticals的quench也是inside out的，但数目相比disk的少很多。如果嘉轩这几个确定是出现了ring的ellipticals（应该就是inside out的结果），那就非常好了，可以细致分析下这几个galaxy的其它物理量。
 
 ## Python For MaNGA
 
