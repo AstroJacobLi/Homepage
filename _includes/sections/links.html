@@ -5,6 +5,25 @@
             <h1><span data-i18n="link.link">Link</span></h1>
         </div>
     </div>
+
+    <div class="col-md-3">
+    </div>
+    <div class="col-md-6">
+            <center>
+            <a href="https://www.revolvermaps.com/livestats/5e5mt1tc712/"><img src="//rf.revolvermaps.com/h/m/a/0/ff0000/256/0/5e5mt1tc712.png" width="512" height="256" alt="Map" style="border:0;"></a>
+		<figcaption>                     </figcaption>
+            <center>
+    </div>
+    <div class="col-md-3">
+    </div>
+     <br>
+    <div class="row-fluid">
+		<div class="span12">
+			<p>
+				     
+			</p>
+		</div>
+	</div>
     <div class="row">
     {% for link in site.data.index.links %}
         {% assign loopindex = forloop.index | modulo: 3 %}
@@ -30,9 +49,12 @@
         </div>
     {% endfor %}
     </div>
+    
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
             <p id="jalpc_site_pv"><strong>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</strong></p>
         </div>
     </div>
+    
+            
 </div>
