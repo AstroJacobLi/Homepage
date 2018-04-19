@@ -9,6 +9,40 @@ tags: [Lecture]
 icon: icon-smile
 ---
 
+# Group Meeting 2018-04-11
+
+## Clustering of SDSS DR7 galaxy groups
+
+assembly bias: bias between DM halo and stars.
+
+what determines the DM halo bias? spin? substructure?
+
+Clustering of SDSS DR7 galaxy groups may reveal DM halo distribution.
+
+To qualify the clustering of galaxies, we introduce TWO-POINT CORRELATION FUNCTION $$\xi(r)$$. (Mo, 2010 book)
+
+Group-galaxy cross-correlation function (Davis, Peebles, 1983). To enlarge the amount of galaxies.
+
+Projected correlation function, eliminate redshift: wp(rp).
+
+Two sub sample: depend on setting a threshold for halo mass. For Mhalo>13, and Mhalo<13 (depend on the brightness of galaxies.)
+
+Here the cluster color means the color of its central galaxy.
+
+**Red groups are more clustered than blue groups, for low mass halos (luminosity based halo mass).**
+
+New pipeline: PYMORTH (Bernardi et al., 2017), new pipeline for luminosity. Bernardi only gives luminosity, using mass-luminosity relation (Mendel, 14), we can calculate stellar mass. "Truncated". This pipeline may have big problem, the difference between stellar mass of two catalog can be 2 dex! Luis: my 5 year old daughter can figure out .....
+
+Offset by **GROUP FINDER** in observation: this finder assumes that the brightest galaxies are the centers of clusters.
+
+The origin double schechter function, is not good for low mass galaxies. The mass function of SF is single schechter function. The mass function of passive galaxies is not.
+
+
+
+Illustris TNG : 10^12~10^15: total mass of halos.
+
+
+
 # GRBs
 
 高能的indirect detection，因为flux很小。反而低能($$<10^{14}$$ eV）的可以direct detection，因为flux很大。分界线大概是knee的位置。
