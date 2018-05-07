@@ -1,13 +1,37 @@
 ---
 layout: post
 title:  "Attended Lectures"
-date:   2018-03-29
+date:   2018-04-25
 desc: "Lecture"
 keywords: "Lecture"
 categories: [Astronomy]
 tags: [Lecture]
 icon: icon-smile
 ---
+
+# Group Meeting 2018-04-25
+
+specific angular momentum is correlated to mass
+
+标度律？
+
+from kinematic data, calculate angular momentum, from photometry???
+
+size of bulge~1kpc, is the resolution of IllustrisTNG high enough to resolve bulge of individual galaxy?
+
+B/T with SSFR, for my sample, and background.
+
+**quenching mechanism:** morphology quenching (gravitational quenching) (bulge), bar quenching, AGN quenching (it is said that low luminous AGN plays a strong influence in quenching, very powerful).
+
+
+
+Q-parameter: don't collapse? Jeans instability.
+
+**Estimating gas masses ad dust-to-gas ratios from optical spectroscopy:** using optical spectroscopy to derive gas content.  This method able us to measure faint galaxies.
+
+**Catching Galaxies in the act of quenching star formation** : quenching galaxy fraction at a given epoch is 5%~10%. Fast quenching process. **A probable work to do.**
+
+
 
 # Group Meeting 2018-04-11
 
