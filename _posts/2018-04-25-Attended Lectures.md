@@ -9,6 +9,42 @@ tags: [Lecture]
 icon: icon-smile
 ---
 
+# Group Meeting 2018-05-09
+
+## Galaxies in the act of quenching star formation
+
+different definition of quenching: here, quenching is O type star disappears. [OIII] flux decrease very quickly, 10-100Myr. We can select fast-quenching galaxies by this method, but not slow-quenching galaxies.
+
+Different indicator of SFR have different timescales.
+
+In this paper, the sample are just central quenched galaxies, since OIII aperture is 3''.
+
+Galaxies in this sample are mostly spiral, so disappear of OIII is not from mergers.
+
+Galaxies in this sample tend to reside in higher environment density. Satellite galaxy fraction of galaxies in this sample is slightly higher than normal SF galaxies. 
+
+AGN duty cycle: 0.1-1 Myr.
+
+SFR may oscillate, quench, then recover.
+
+If you want to quench galaxy in short timescale, you need to do something to molecular gas, to prevent forming stars?
+
+Peng: environment quenching can not quench galaxy in this short time (this paper, 10 Myr). 
+
+
+
+Passive sequence is a garbage can for those quenched galaxies after $$z=3$$.
+
+Quenching timescale is related to redshift. Higher redshift, quenching faster.
+
+
+
+Simulation: S0 is from merger of elliptical????
+
+Bulge: prevent gas collapse to form stars, morphological quenching.
+
+
+
 # Group Meeting 2018-04-25
 
 specific angular momentum is correlated to mass
