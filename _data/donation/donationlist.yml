@@ -35,7 +35,7 @@
   value: 1
   date: 2017-09-09
   
-- name: Starophin
+- name: Xiaotong Li
   photo: xiaotong.jpg
   type: rmb
   location: Beijing
@@ -83,3 +83,12 @@
   website: 
   value: 1.11
   date: 2017-11-20
+  
+  - name: Zhaorui Wei
+  photo: zhaorui.jpg
+  type: rmb
+  location: Beijing
+  website: 
+  value: 6.67
+  date: 2018-06-22
+  account: wzr123@pku.edu.cn
