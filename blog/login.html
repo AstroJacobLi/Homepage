@@ -19,7 +19,8 @@
                 var userInfo = JSON.parse(localStorage.getItem(userName));
                  
                 if(userInfo && userInfo.pwd === pwd)
-                    return alert('登录成功!');
+                {return alert('登录成功!');
+                 window.location.href="https://astrojacobli.github.io/Homepage/donate/";}
                  
                  
                 alert('登录失败 请先注册!');
