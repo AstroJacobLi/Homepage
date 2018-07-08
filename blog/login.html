@@ -19,12 +19,14 @@
                 var userInfo = JSON.parse(localStorage.getItem(userName));
                  
                 if(userInfo && userInfo.pwd === pwd)
-                {if (userInfo === 'jiaxuan')
-                 {location.href="https://astrojacobli.github.io/Homepage/donate/";}
-                 alert('呵呵');}
+                {if(userInfo === 'jiaxuan')
+                    {location.href="https://astrojacobli.github.io/Homepage/donate/";}
+                 else
+                 {alert('呵呵');}
+                }
                  
-                 
-                alert('登录失败 请先注册!');
+                else{ 
+                alert('登录失败 请先注册!');}
                  
             });
              
