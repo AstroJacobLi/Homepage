@@ -4,3 +4,56 @@ title: Life
 permalink: /life/
 ---
 {% include category.html %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <script>
+     
+        window.addEventListener('load',function(){
+             
+            var form = document.forms[0];
+ 
+            form.addEventListener('submit',function(e){
+             
+                e.preventDefault();
+                 
+                var userName = form.userName.value;
+                var pwd = form.pwd.value;
+                 
+                var userInfo = JSON.parse(localStorage.getItem(userName));
+                 
+                if(userInfo && userInfo.pwd === pwd)
+                {if(userName == 'jiaxuan'||'goudan')
+                    {location.href="https://astrojacobli.github.io/Homepage/donate/";}
+                 else
+                 {alert('呵呵');}
+                }
+                 
+                else{ 
+                alert('登录失败 请先注册!');}
+                 
+            });
+             
+            document.getElementsByTagName('button')[0].addEventListener('click',function(e){
+                 
+                e.preventDefault();
+                 
+                location.href = 'register.html';
+                 
+            });
+        });
+         
+    </script>
+</head>
+<body>
+    <form action="#">
+        <input name="userName" type="text" placeholder="账户名" required>
+        <input name="pwd" type="password" placeholder="密码" required>
+        <input type="submit" value="登录">
+        <button>注册</button>
+    </form>
+</body>
+</html>
