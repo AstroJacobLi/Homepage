@@ -41,11 +41,83 @@ alert("请输入密码!");myform.txt_pwd.focus();return false;
 
 }
 
+if(myform.txt_yan.value==""){
+
+alert("请输入验证码!");myform.txt_yan.focus();return false;
+
+}
+
+if(myform.txt_yan.value!=myform.txt_hyan.value){
+
+alert("对不起，您输入的验证码不正确!");myform.txt_yan.focus();return false;
+
+}
+
 }
 
 </script>
 
+<body>
 
+<table width="693" height="346" border="0" align="center" cellpadding="0" cellspacing="0">
+
+  <tr>
+
+    <td background="images/image_02.png">
+
+<form name="myform" method="post"  action="checkuser.php">
+
+<table width="693" border="0" cellspacing="0" cellpadding="0">
+
+      <tr>
+
+        <td height="42" colspan="5"> </td>
+
+      </tr>
+
+      <tr>
+
+        <td width="154" height="117" rowspan="4"> </td>
+
+        <td height="13" colspan="3" align="center" valign="top"> </td>
+
+        <td width="160" rowspan="4"> </td>
+
+      </tr>
+
+      <tr>
+
+        <td width="99" height="30" align="right" valign="middle">用户名：</td>
+
+        <td colspan="2" align="left" valign="middle"><input type="text" name="txt_user"></td>
+
+      </tr>
+
+      <tr>
+
+        <td height="30" align="right" valign="middle">密  码：</td>
+
+        <td height="30" colspan="2" align="left" valign="middle"><input type="password" name="txt_pwd" onCopy="return false" onCut="return false" onPaste="return false" maxlength="60"></td>
+
+      </tr>
+
+      <tr>
+
+        <td height="30" align="right" valign="middle">验证码：</td>
+
+        <td width="218" height="32" align="left" valign="middle"><input type="text" name="txt_yan">
+
+<?php
+
+  $num=intval(mt_rand(1000,9999));
+
+  for($i=0;$i<4;$i++){
+
+echo "<img src=images/checkcode/".substr(strval($num),$i,1).".gif>";   //输出随机的数字图形
+
+  }
+
+?> 
 
 <input type="hidden" name="txt_hyan" id="txt_hyan" value="<?php echo $num;?>" >
 

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>regist</title>
+    <script>
+     
+        window.addEventListener('load',function(){
+             
+            var form = document.forms[0];
+            var getUserInfo = function(){
+             
+                var value ={};
+             
+                for(var i=0,len=form.elements.length;i<len;i++){
+                     
+                     var el = form.elements[i];
+                     
+                    if(/text|password/.test(el.type)){
+                        value[el.name] = el.value;
+                    }
+                         
+                }
+                 
+                return value;
+            };
+            form.addEventListener('submit',function(e){
+             
+                e.preventDefault();
+                 
+                var userInfo = getUserInfo();
+                 
+                localStorage.setItem(userInfo.userName,JSON.stringify(userInfo));
+                 
+                alert('注册成功!');
+                 
+            });
+             
+            document.getElementsByTagName('button')[0].addEventListener('click',function(e){
+                 
+                e.preventDefault();
+                 
+                var value = getUserInfo();
+                var out = [];
+                for(var name in value)
+                    out.push(name+'='+value[name]);
+                alert(out.join(','));
+                 
+            });
+        });
+         
+    </script>
+</head>
+<body>
+    <form action="#">
+        <input name="userName" type="text" placeholder="账户名" required>
+        <input name="pwd" type="password" placeholder="密码" required>
+        <input name="confirmPwd" type="password" placeholder="确认密码" required>
+        <input type="submit" value="注册">
+        <button>验证</button>
+    </form>
+</body>
+</html>

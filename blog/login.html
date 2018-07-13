@@ -1,8 +1,3 @@
----
-layout: blog
-title: Life
-permalink: /life/
----
 <!doctype html>
 <html lang="en">
 <head>
@@ -24,14 +19,14 @@ permalink: /life/
                 var userInfo = JSON.parse(localStorage.getItem(userName));
                  
                 if(userInfo && userInfo.pwd === pwd)
-                {if(userName == 'jiaxuan'||'goudan')
+                {if(userName == 'jiaxuan')
                     {location.href="https://astrojacobli.github.io/Homepage/donate/";}
                  else
                  {alert('呵呵');}
                 }
                  
                 else{ 
-                alert('登录失败 请先注册!');}
+                alert('登录失败!');}
                  
             });
              
@@ -55,5 +50,3 @@ permalink: /life/
     </form>
 </body>
 </html>
-
-{% include category.html %}
