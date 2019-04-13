@@ -20,7 +20,7 @@ languages:
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: 李嘉轩  # Be used at blog posts' author.
+  name: CHECK MY NEW HOMEPAGE HERE: http://astrojacobli.github.io  # Be used at blog posts' author.
   first_name: Jiaxuan Li  # Be used at index page about me section.
   last_name:  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
