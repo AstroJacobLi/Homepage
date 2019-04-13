@@ -29,7 +29,7 @@ author:  # change following line to your infomation.
   facebook_username: astrolijiaxuan  # Leave blank if you don't have now
   weibo_username:  bjdxljx # Leave blank if you don't have now
   email: jiaxuan_li@pku.edu.cn  # Leave blank if you don't have now
-  cv:  /Homepage/CV.pdf # A online CV can be printed as PDF, leave blank if you don't have now
+  cv:  /JIAXUAN_CV.pdf # A online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: fa-music
