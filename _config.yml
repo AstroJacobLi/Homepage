@@ -37,8 +37,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-code
     - name: fa-superscript
-  desc: Undergraduate Student of Department of Astronomy, School of Physics, Peking University <br/> <br/>President of Youth Astronomy Society, Peking University
-
+  desc:  CHECK MY NEW HOMEPAGE HERE: http://astrojacobli.github.io
 # comment
 disqus: # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
   name: astrojacobli
