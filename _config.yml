@@ -20,7 +20,7 @@ languages:
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: CHECK MY NEW HOMEPAGE HERE: http://astrojacobli.github.io  # Be used at blog posts' author.
+  name: 李嘉轩  # Be used at blog posts' author.
   first_name: Jiaxuan Li  # Be used at index page about me section.
   last_name:  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
@@ -37,7 +37,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-code
     - name: fa-superscript
-  desc:  CHECK MY NEW HOMEPAGE HERE: http://astrojacobli.github.io
+  desc:  CHECK MY NEW HOMEPAGE HERE: <a href="http://astrojacobli.github.io">http://astrojacobli.github.io</a>
 # comment
 disqus: # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
   name: astrojacobli
